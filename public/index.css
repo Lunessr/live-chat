@@ -1,0 +1,89 @@
+body {
+  background-image: url('https://wallpaperaccess.com/full/1812875.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.welcome-screen {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.welcome-screen button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 2px solid;
+}
+
+.welcome-screen input {
+  height: 30px;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.chat {
+  display: flex;
+  width: 800px;
+  height: 900px;
+  margin: 0 auto;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+
+.chat .users-list {
+  width: 300px;
+  border-right: 2px solid black;
+}
+
+.chat .users-list .active {
+  background: #f3f3f3;
+}
+
+.chat .users-list div {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.chat .users-list div:hover {
+  background: #f3f3f3;
+}
+
+.chat .has-new-notification:after {
+  content: '❗';
+  display: inline-block;
+}
+
+.chat .messages {
+  width: 100%;
+  position: relative;
+}
+
+.chat .messages-list {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/946/670/original/abstract-template-grey-geometric-shine-and-layer-background-with-light-blue-effect-technology-style-free-vector.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100% - 60px);
+  text-indent: 10px;
+  font-size:large;
+}
+
+.chat input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+.chat .current-user {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
